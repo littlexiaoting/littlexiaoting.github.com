@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.pad {
+  padding: 3% 3% 0;
+}
+
+//CMC俱乐部标签页
+#club {
+  width: 94%;
+  .pad;
+  ul {
+    width: 100%;
+    display: flex;
+    li {
+      flex: 1;
+      line-height: 1.5em;
+      &:last-child {
+        img {
+          width: 89%;
+          float: right;
+          margin-bottom: 6%;
+        }
+      }
+      h2 {
+        text-align: left;
+      }
+      p {
+        padding-bottom: 4%;
+      }
+    }
+  }
+}
+
+//一站式服务标签页
+#service {
+  width: 94%;
+  .pad;
+  ul {
+    width: 100%;
+    display: flex;
+    li:first-child {
+      flex: 2;
+      line-height: 2em;
+      font-size: 1em;
+      h2 {
+        padding-top: 2%;
+        padding-bottom: 5%;
+        font-size: 1.3em;
+        text-align: left;
+      }
+      p {
+        font-size: 1em;
+        line-height: 1.8em;
+      }
+    }
+    li:last-child {
+      flex: 1;
+      padding-right: 7%;
+    }
+  }
+}
+
+//顾问医服务标签页
+#adviser {
+  width: 94%;
+  .pad;
+  ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      flex: 100%;
+      line-height: 1.5em;
+      ul {
+        width: 100%;
+        display: flex;
+        li {
+          flex: 1;
+          h2 {
+            text-align: left;
+          }
+          p {
+            padding-bottom: 5%;
+            font-size: 1em;
+          }
+          span {
+            color: #EA7274;
+            padding-bottom: 0.8%;
+          }
+          &:first-child {
+            padding-right: 3%;
+          }
+        }
+        li:last-child {
+          text-align: center;
+          #adviser1 {
+            width: 50%;
+          }
+          @media screen and (min-width: 1080px) {
+            #adviser3 {
+              width: 100%;
+            }
+
+            #adviser2 {
+              display: none;
+            }
+          }
+          @media screen and (max-width: 1080px) {
+            #adviser3 {
+              display: none;
+            }
+            #adviser2 {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

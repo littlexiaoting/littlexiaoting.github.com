@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.pad {
+  padding: 3% 3% 0;
+}
+#club {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#club ul {
+  width: 100%;
+  display: flex;
+}
+#club ul li {
+  flex: 1;
+  line-height: 1.5em;
+}
+#club ul li:last-child img {
+  width: 89%;
+  float: right;
+  margin-bottom: 6%;
+}
+#club ul li h2 {
+  text-align: left;
+}
+#club ul li p {
+  padding-bottom: 4%;
+}
+#service {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#service ul {
+  width: 100%;
+  display: flex;
+}
+#service ul li:first-child {
+  flex: 2;
+  line-height: 2em;
+  font-size: 1em;
+}
+#service ul li:first-child h2 {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 1.3em;
+  text-align: left;
+}
+#service ul li:first-child p {
+  font-size: 1em;
+  line-height: 1.8em;
+}
+#service ul li:last-child {
+  flex: 1;
+  padding-right: 7%;
+}
+#adviser {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#adviser ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#adviser ul li {
+  flex: 100%;
+  line-height: 1.5em;
+}
+#adviser ul li ul {
+  width: 100%;
+  display: flex;
+}
+#adviser ul li ul li {
+  flex: 1;
+}
+#adviser ul li ul li h2 {
+  text-align: left;
+}
+#adviser ul li ul li p {
+  padding-bottom: 5%;
+  font-size: 1em;
+}
+#adviser ul li ul li span {
+  color: #EA7274;
+  padding-bottom: 0.8%;
+}
+#adviser ul li ul li:first-child {
+  padding-right: 3%;
+}
+#adviser ul li ul li:last-child {
+  text-align: center;
+}
+#adviser ul li ul li:last-child #adviser1 {
+  width: 50%;
+}
+@media screen and (min-width: 1080px) {
+  #adviser ul li ul li:last-child #adviser3 {
+    width: 100%;
+  }
+  #adviser ul li ul li:last-child #adviser2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #adviser ul li ul li:last-child #adviser3 {
+    display: none;
+  }
+  #adviser ul li ul li:last-child #adviser2 {
+    width: 100%;
+  }
+}

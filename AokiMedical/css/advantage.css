@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.section p {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+}
+.section p > span {
+  font-weight: normal;
+}
+.section p:last-child {
+  padding-bottom: 90px;
+}
+.section span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #15a9a9;
+  font-weight: 600;
+}
+.section table tr {
+  background-color: #e8fdff;
+  color: #666;
+  font-size: 16px;
+}
+.section table tr:first-child {
+  background-color: #d3fcff;
+  color: #15a9a9;
+  font-weight: 600;
+  font-size: 18px;
+}
+.section table tr td {
+  padding: 14px 0 14px 30px;
+}
+.section table tr td:first-child {
+  width: 193px;
+}
+.section table tr td:nth-child(2) {
+  width: 459px;
+}
+.section table tr td:last-child {
+  width: 550px;
+}

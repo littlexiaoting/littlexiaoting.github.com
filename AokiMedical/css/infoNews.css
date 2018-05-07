@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.section {
+  margin-bottom: 90px;
+}
+.section .from {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 20px;
+  color: #666;
+  font-weight: 600;
+}
+.section .from > span {
+  color: #999;
+  font-weight: normal;
+}
+.section .dotted {
+  width: 100%;
+  height: 11px;
+  border-bottom: 1px dashed #999;
+}
+.section .alone {
+  margin: 30px 0;
+}
+.section small {
+  font-size: 16px;
+  color: #666;
+  letter-spacing: normal;
+  margin: 30px auto;
+}
+.section img {
+  display: block;
+  margin: 20px auto;
+  width: 640px;
+}
+.section img.wangshi {
+  width: 600px;
+}
+.section p {
+  text-indent: 2em;
+  line-height: 30px;
+}
+.section p span {
+  text-indent: 0;
+  color: #333;
+  font-weight: 600;
+}
+.section .little {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.section div {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  margin-top: 20px;
+}
+.section div a {
+  color: #bbbbbb;
+  padding: 0 50px ;
+}
+.section div a:hover {
+  color: #16bbb7;
+}

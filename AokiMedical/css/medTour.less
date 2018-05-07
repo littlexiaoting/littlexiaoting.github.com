@@ -1,0 +1,184 @@
+@charset "UTF-8";
+//签证
+.visa {
+  p {
+    letter-spacing: 0;
+    line-height: 30px;
+    span {
+      display: block;
+    }
+  }
+  table {
+    .title {
+      background-color: #d3fcff;
+      font-size: 18px;
+      font-weight: 600;
+      color: #15a9a9;
+    }
+    td {
+      background-color: #e8fdff;
+      text-align: center;
+      padding: 15px 0;
+      &.d_left {
+        text-align: left;
+        padding-left: 30px;
+      }
+    }
+  }
+  span {
+    color: #15a9a9;
+  }
+}
+//包车
+.bus{
+  position: relative;
+  p{
+    text-indent: 2em;
+  }
+  table {
+    width: 100%;
+    tr {
+      background-color: #e8fdff;
+      span {
+        font-size: 16px;
+        font-weight: 600;
+        color: #15a9a9;
+        &.little {
+          font-weight: normal;
+        }
+      }
+      td {
+        color: #666;
+        font-size: 16px;
+        padding: 20px 17px;
+        width: 176px;
+        i {
+          color: #999;
+        }
+        &.dCenter {
+          text-align: center;
+        }
+        &.tip {
+          padding: 16px 28px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+}
+//酒店、旅游景点
+.hotel {
+  p {
+    text-indent: 2em;
+    line-height: 30px;
+    &:not(.last){
+      padding-bottom: 20px;
+
+    }
+
+    &:first-child {
+      color: #666;
+    }
+    span {
+      text-indent: 0;
+      color: #16bbb7;
+      font-weight: 600;
+    }
+    i {
+      text-indent: 0;
+      color: #999;
+    }
+
+  }
+  .title {
+    overflow: hidden;
+    p {
+      text-indent: 0;
+      &.h_title, &.h_price {
+        display: inline-block;
+      }
+      &.h_title {
+        float: left;
+      }
+      &.h_price {
+        float: right;
+      }
+    }
+
+  }
+  .img {
+    width: 100%;
+    &:not(:last-child){
+      padding-bottom: 30px;
+    }
+    img {
+      width: 214px;
+      height: 139px;
+      &:not(:last-child) {
+        margin-right: 3px;
+      }
+    }
+  }
+  ul{
+    width: 100%;
+    height: 205px;
+    display: flex;
+    margin-top: 10px;
+    li{
+      flex: 205px;
+      height: 150px;
+      text-align: center;
+      color: #666;
+      &:not(:last-child){
+        margin-right: 15px;
+      }
+      img{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+//公共交通
+.publicTraffic {
+  p {
+    color: #666;
+    line-height: 30px;
+    .title {
+      color: #333;
+      font-weight: 600;
+    }
+    .s_green {
+      color: #16bbb7;
+    }
+    .little {
+      color: #666;
+      font-weight: 600;
+    }
+
+  }
+  .img {
+    overflow: hidden;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    span{
+      color: #1fa16d;
+    }
+    img{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .img_left{
+      float: left;
+      height: 277px;
+      width: 400px;
+    }
+    .img_right{
+      float: right;
+      height: 277px;
+      width: 422px;
+    }
+  }
+}

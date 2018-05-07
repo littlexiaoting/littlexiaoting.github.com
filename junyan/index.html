@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <title>宇都宫中心医院</title>
+    <link rel="stylesheet" href="css/cssReset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="nav">
+    <h1>宇都宫中心医院</h1>
+    <img class="logo" src="images/nav_logo.jpg" alt="宇都宫中心医院"/>
+    <ul class="navBar">
+        <li><a href="beauty.html">美容抗衰</a></li>
+        <li><a href="information.html">相关资讯</a></li>
+        <li><a href="referral.html">国际转诊</a></li>
+        <li><a href="vip.html">会员服务</a></li>
+        <li><a href="tumour.html">肿瘤治疗</a></li>
+        <li><a href="physical.html">健康体检</a></li>
+        <li><a href="aboutUs.html">关于我们</a></li>
+        <li style="background: #204c79;"><a href="index.html" title="俊彦医院">首页</a></li>
+    </ul>
+    <p>Language <span class="icon-caret-down"></span></p>
+    <ul id="language">
+        <li>Language <span class="icon-caret-up"></span></li>
+        <li><a href="index.html">中文</a>&nbsp;<span class="icon-repeat"></span>&nbsp;<a href="http://ucc.or.jp/">日文</a></li>
+    </ul>
+    <div class="tel">
+        <img src="images/tel.jpg"/>
+        400-103-2278
+    </div>
+</div>
+<div id="section">
+    <div class="section">
+        <div class="sidebar">
+        </div>
+        <div class="right">
+            <ul>
+                <li class="banner">
+                    <img src="images/index/banner.jpg"/>
+                    <a href="aboutUs.html">
+                        <p class="top">
+                            <span>UTSUNOMIYA</span><br>
+                            <span>
+                                Central Clinic <br>
+                                宇都宫中心医院
+                            </span>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <ul class="middle">
+                        <li id="index2">
+                            <a href="overseas.html">
+                                <span>
+                                海外就医 <br>
+                                Overseas Medical
+                            </span>
+                            </a>
+
+
+                        </li>
+                        <li id="index3">
+                            <a href="highQuality.html">
+                                <span>
+                                高价值体检 <br>
+                                High Value Physical Checkup
+                            </span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="bottom">
+                        <li id="index4">
+                            <a id="image" href="javascript:void(0);">
+
+                                <span>
+                                影像诊断中心 <br>
+                                Diagnostic Imaging Center
+                            </span>
+
+                            </a>
+
+                        </li>
+                        <li id="index5">
+                            <a id="breast" href="javascript:void(0);">
+                                <span>
+                                女性乳腺中心 <br>
+                                Breast Center
+                            </span>
+                            </a>
+
+                        </li>
+                        <li id="index6">
+                            <a href="tumour.html">
+                                <span>
+                                癌症治疗 <br>
+                               Cancer Treatment
+                            </span>
+                            </a>
+
+                        </li>
+                        <li id="index7">
+                            <a href="vip.html">
+                                <span>
+                                CMC 俱乐部 <br>
+                                Central Medical Club
+                            </span>
+                            </a>
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="footer">
+    <img src="images/footer_logo.jpg"/>
+
+    <p>
+        日本地址：〒321-0112 日本栃木県宇都宮市屋板町561－3 <br>
+        联系电话：400-103-2278
+    </p>
+</div>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/public.js"></script>
+<script>
+    $(function () {
+        $('#image').click(function () {
+            var date = 'image';
+            var myurl = 'aboutUs.html?date=' + date;
+            location.assign(encodeURI(myurl));
+        });
+        $('#breast').click(function () {
+            var date = 'breast';
+            var myurl = 'aboutUs.html?date=' + date;
+            location.assign(encodeURI(myurl));
+        });
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+#overseas {
+  width: 94%;
+  padding: 3% 3% 0;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex: 100%;
+    padding-bottom: 2%;
+    ul {
+      width: 100%;
+      display: flex;
+      li:first-child {
+        padding-right: 3%;
+        flex: 44%;
+        padding-bottom: 0;
+      }
+      li:last-child {
+        flex: 56%;
+        span {
+          display: inline-block;
+          padding-left: 2px;
+          font-size: 1em;
+          color: #214C79;
+          font-weight: 600;
+          line-height: 1em;
+          padding-bottom: -1%;
+        }
+        .kuai {
+          background-color: #214C79;
+          display: inline;
+        }
+        p{
+          padding-top: 8%;
+          line-height: 2em;
+        }
+      }
+    }
+  }
+  li:last-child{
+    padding-bottom: 0;
+  }
+}

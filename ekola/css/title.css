@@ -1,0 +1,23 @@
+@charset "UTF-8";
+section > .title {
+  width: 100%;
+  padding-bottom: 4%;
+}
+section > .title li {
+  width: 100%;
+  padding-left: 43.5%;
+}
+section > .title li img {
+  width: 10%;
+  display: inline-block;
+}
+section > .title li img:first-child {
+  padding-right: 1%;
+}
+section > .title li img:last-child {
+  padding-left: 1%;
+}
+section > .title li img.img_md {
+  margin-bottom: -1.4%;
+  width: 3%;
+}

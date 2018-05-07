@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.pad {
+  padding: 3% 3% 0;
+}
+
+//学术理念
+#idea {
+  width: 94%;
+  .pad;
+  p {
+    padding-top: 0;
+    padding-bottom: 3%;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    li:first-child {
+      flex: 60%;
+    }
+    li:last-child {
+      margin-top: -0.5%;
+      padding-left: 2%;
+      //font-size: 0.9em;
+      flex: 40%;
+      p {
+        line-height: 1.8em;
+        @media screen and (max-width: 1499px) {
+          & {
+            line-height: 2em;
+          }
+        }
+        @media screen and (max-width: 1200px) {
+          & {
+            line-height: 1.7em;
+          }
+        }
+        @media screen and (max-width: 1036px) {
+          & {
+            line-height: 1.5em;
+          }
+        }
+      }
+    }
+  }
+}
+
+//诊疗内容
+#content {
+  width: 94%;
+  .pad;
+  p {
+    padding-top: 0;
+    padding-bottom: 3%;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    li:first-child {
+      flex: 30%;
+    }
+    li:last-child {
+      padding-left: 2%;
+      flex: 70%;
+      font-size: 0.9em;
+      line-height: 1.8em;
+      @media screen and (max-width: 1499px) {
+        & {
+          line-height: 2em;
+        }
+      }
+      @media screen and (max-width: 1220px) {
+        & {
+          line-height: 1.8em;
+        }
+      }
+      @media screen and (max-width: 1100px) {
+        & {
+          line-height: 1.6em;
+        }
+      }
+    }
+  }
+}
+
+//医院环境
+#environment {
+  width: 94%;
+  .pad;
+}
+
+//抗衰老产品
+#product {
+  width: 94%;
+  .pad;
+  ul {
+    width: 100%;
+    display: flex;
+    li:first-child {
+      flex: 30%;
+      ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          flex: 100%;
+          margin-bottom: 17%;
+          text-align: center;
+          @media screen and (max-width: 1500px) {
+            & {
+              margin-bottom: 0;
+            }
+          }
+          @media screen and (max-width: 1286px) {
+            & {
+              margin-bottom: 8%;
+            }
+          }
+          @media screen and (max-width: 1237px) {
+            & {
+              margin-bottom: 14%;
+            }
+          }
+          @media screen and (max-width: 1163px) {
+            & {
+              margin-bottom: 18%;
+            }
+          }
+          @media screen and (max-width: 1100px) {
+            & {
+              margin-bottom: 30%;
+            }
+          }
+          @media screen and (max-width: 1055px) {
+            & {
+              margin-bottom: 40%;
+            }
+          }@media screen and (max-width: 980px) {
+            & {
+              margin-bottom: 45%;
+            }
+          }
+          img {
+            width: 55%;
+          }
+          #product3 {
+            width: 100%;
+          }
+        }
+        li:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    li:last-child {
+      flex: 70%;
+      padding-left: 2%;
+      h2 {
+        text-align: left;
+        padding-bottom: 4%;
+      }
+      p:not(:last-child) {
+        padding-bottom: 4%;
+      }
+    }
+    small{
+      color: #666666;
+    }
+  }
+}
+
+//医师团队介绍
+#team {
+
+}

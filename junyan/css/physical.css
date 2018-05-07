@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/*健康体检标签页*/
+#test {
+    padding-top: 3%;
+    width: 100%;
+}
+
+#test > ul {
+    width: 100%;
+    display: flex;
+}
+
+#test > ul > li:first-child {
+    flex: 21.5%;
+    font-size: 0.9em;
+    padding: 7% 0 7% 2.2%;
+    line-height: 1.8em;
+}
+
+#test > ul > li:last-child {
+    flex: 76.3%;
+}
+
+#test > ul > li:last-child ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#test > ul > li:last-child ul li {
+    flex: 47.4%;
+    padding-left: 2.6%;
+}
+
+#test > ul > li:last-child ul li span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 2%;
+    padding-top: -2%;
+}
+
+/*健康体检标签页结束*/
+
+/*体检项目标签页*/
+#project {
+    padding: 3% 3% 0;
+    width: 94%;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+#project .big {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project .big > li {
+    flex: 100%;
+    background-color: #DBF3FF;
+}
+#project .big > li >.small{
+    width: 100%;
+    display: flex;
+}
+
+#project .big > li >.small>li{
+    flex: 1;
+    display: flex;
+    padding: 2.5% 3.5% 2.5% 4%;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+/*第二第四列*/
+#project .big > li >.small>li:nth-child(2n) {
+    text-align: left;
+    font-size: 0.9em;
+    color: #555;
+    padding: 2.5% 4% 2.5% 5%;
+}
+/*小标题栏*/
+#project .big >li:first-child .small>li,#project .big > li:first-child >.small>li:nth-child(2n){
+    background-color: #204C79;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1.5% 2.5%;
+}
+#project .big >li:not(:first-child){
+    margin-top: 1%;
+}
+#project .small .aim:hover{
+    color: #017fff;
+}
+#project p {
+    padding-top: 0;
+    padding-bottom: 2%;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#project .project_big {
+    width: 100%;
+    text-align: left;
+}
+
+#project .project_big > li {
+    width: 100%;
+    line-height: 1.5em;
+}
+
+#project .project_big > li > .project_little {
+    width: 100%;
+    display: flex;
+}
+
+#project .project_big > li > .project_little li {
+    padding: 1% 2%;
+}
+
+#project .project_big > li > .project_little > li:first-child {
+    flex: 20%;
+    font-size: 1em;
+    background-color: #7DD6FF;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#project .project_big > li > .project_little > li:last-child {
+    flex: 80%;
+    font-size: 0.9em;
+    background-color: #9DDCFB;
+    margin-bottom: 1%;
+}
+
+#project .price {
+    font-size: 1em;
+    display: inline-block;
+    padding-bottom: 0;
+    float: left;
+}
+#project .price .add {
+    color: #204c79;
+    font-size: 1.5rem;
+}
+#project .price .add:hover {
+    cursor: pointer;
+    color: #666;
+}
+#project span {
+    float: right;
+    background: transparent;
+    border: none;
+    height: 2em;
+    font-size: 0.85em;
+    line-height: 2em;
+    color: black;
+    padding-top: 0;
+}
+
+#project span:hover {
+    cursor: pointer;
+    color: #204c79;
+}
+
+/*体检项目标签页结束*/
+
+/*注意事项标签页*/
+#attention {
+    width: 100%;
+}
+
+#attention > ul {
+    width: 100%;
+}
+
+#attention > ul > li {
+    padding-top: 3%;
+    width: 100%;
+    float: left;
+}
+
+#attention > ul > li > ul {
+    display: flex;
+}
+
+#attention > ul > li > ul > li {
+    flex: 1;
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+
+#attention > ul > li > ul > li:first-child {
+    padding-left: 3%;
+}
+
+#attention > ul > li > ul > li:last-child {
+    padding-right: 3%;
+    padding-left: 0.5%;
+
+}
+
+#last {
+    text-align: left;
+}
+
+#attention span {
+    color: #E99899;
+}
+
+#attention .title {
+    font-size: 1.1em;
+    margin-bottom: 3%;
+}
+
+/*注意事项标签页结束*/
+
+/*体检流程标签页*/
+#process {
+    width: 97%;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+#process > ul {
+    width: 97%;
+    display: flex;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#process > ul > li {
+    flex: 50%;
+}
+
+#process > ul > li:first-child {
+    padding-right: 0.5%;
+}
+
+#process > ul > li:last-child {
+    padding-left: 0.5%;
+}
+
+#process > ul > li > ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#process > ul > li > ul > li {
+    flex: 100%;
+    margin-bottom: 1%;
+}
+
+#process > ul > li > ul > li > ul {
+    width: 100%;
+    display: flex;
+}
+
+#process > ul > li > ul > li > ul > li {
+    flex: 50%;
+}
+
+#process > ul > li > ul > li > ul > li:first-child {
+    margin-right: 1%;
+}
+
+#process .ul_title > li:first-child {
+    background-color: #7DD6FF;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #204C79;
+}
+
+#process .ul_title > li:last-child > ul > li {
+    background-color: #9DDCFB;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#process .ul_title > li:last-child > ul > li img {
+    width: 12%;
+}
+
+#process .ul_body > li > ul > li {
+    background-color: #CCF0FF;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#process .ul_body:last-child > li#prompt {
+    background-color: #CCF0FF;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#process .ul_body:last-child > li span {
+    color: #e26969;
+}
+
+#process .ul_body:last-child > li p {
+    font-size: inherit;
+    line-height: inherit;
+}
+

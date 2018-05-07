@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.summary {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex: 100%;
+    padding-bottom: 2.5%;
+    &:last-child{
+      padding-bottom: 0;
+    }
+    ul {
+      display: flex;
+      width: 100%;
+      li{
+        padding-bottom: 0;
+      }
+      li:first-child {
+        flex:20%;
+      }
+      li:last-child{
+        flex: 80%;
+        padding-left: 2.7%;
+        h2{
+          text-align: left;
+        }
+        p{
+          padding-top: 2%;
+          color: #666;
+        }
+        @media screen and (max-width: 1086px){
+          p{
+            line-height: 2em;
+          }
+        }@media screen and (max-width: 849px){
+          p{
+            line-height: 1.5em;
+          }
+        }
+      }
+    }
+  }
+}

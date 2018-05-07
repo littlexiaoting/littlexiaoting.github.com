@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.section span,
+.section p {
+  font-size: 16px;
+  line-height: 26px;
+}
+.section p {
+  color: #666;
+}
+.section .project_big {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  border-top: 1px solid #23b1ad;
+  border-left: 1px solid #23b1ad;
+}
+.section .project_big li {
+  flex: 100%;
+}
+.section .project_big li .project_little {
+  width: 100%;
+  display: flex;
+}
+.section .project_big li .project_little li {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  line-height: 30px;
+  border-right: 1px solid #23b1ad;
+  border-bottom: 1px solid #23b1ad;
+}
+.section .project_big li .project_little li:first-child {
+  flex: 200px;
+  font-size: 20px;
+  color: #555;
+  background-color: #d3fcff;
+  padding-left: 20px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: left;
+}
+.section .project_big li .project_little li:last-child {
+  flex: 1200px;
+  font-size: 16px;
+  color: #666;
+  background-color: #e8fdff;
+  padding-left: 40px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: left;
+}
+.section .price,
+.section a {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 47px;
+}
+.section a {
+  float: right;
+}
+.section a:hover {
+  color: #23b1ad;
+}

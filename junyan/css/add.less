@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#add {
+  width: 100%;
+  h2 {
+    padding-bottom: 3%;
+  }
+  p {
+    text-align: center;
+    padding-bottom: 2%;
+    &:last-child{
+      padding-bottom: 0;
+    }
+  }
+  table {
+    width: 100%;
+    border-right: 1px solid #bbe3ff;
+    border-bottom: 1px solid #bbe3ff;
+    border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    thead {
+      width: 100%;
+      background-color: #DBF1FF;
+      text-align: center;
+      tr {
+        width: 100%;
+        td {
+          margin: 0;
+          border-left: 1px solid #bbe3ff;
+          border-top: 1px solid #bbe3ff;
+          padding: 1%;
+          font-size: 1em;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
+
+    }
+    tbody {
+      background-color: #f5faff;
+      tr {
+        width: 100%;
+        td {
+          margin: 0;
+          border-left: 1px solid #bbe3ff;
+          border-top: 1px solid #bbe3ff;
+          padding: 1% 0;
+          font-size: 0.9em;
+          text-align: center;
+          &.add_title {
+            font-size: 1em;
+          }
+          &.add_name {
+            width: 29%;
+            padding-left: 3%;
+            text-align: left;
+            color: #666;
+          }
+          &.add_price {
+            width: 17%;
+
+            color: #ff8282;
+          }
+          &.tip {
+            width: 33%;
+            color: #999;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+span.back {
+  float: right;
+  padding-top: 1%;
+  &:hover {
+    cursor: pointer;
+    color: #204c79;
+  }
+}

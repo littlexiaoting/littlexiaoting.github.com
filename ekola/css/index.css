@@ -1,0 +1,261 @@
+@charset "UTF-8";
+.article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.article h2 {
+  padding-bottom: 1.8%;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #333;
+}
+.article p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 0.8em;
+  color: #444;
+}
+span {
+  color: #333333;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+@media screen and (max-width: 1384px) {
+  span {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 941px) {
+  span {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 837px) {
+  span {
+    font-size: 0.7em;
+  }
+}
+section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+section .top {
+  position: relative;
+  z-index: 5;
+}
+section .top span {
+  position: absolute;
+  right: 21.3%;
+  bottom: 46%;
+  color: #fff;
+}
+section .lifeMarket {
+  z-index: 4;
+  margin-top: -7%;
+  position: relative;
+}
+section .lifeMarket span {
+  position: absolute;
+  right: 49.5%;
+  bottom: 36%;
+}
+section .lifeMarket article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+section .lifeMarket article h2 {
+  padding-bottom: 1.8%;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #333;
+}
+section .lifeMarket article p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 0.8em;
+  color: #444;
+}
+section .edu {
+  z-index: 4;
+  margin-top: -1%;
+  position: relative;
+}
+section .edu span {
+  position: absolute;
+  left: 57.5%;
+  bottom: 39%;
+  color: #fff;
+}
+section .edu article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(71, 219, 187, 0.9);
+}
+section .edu article h2 {
+  padding-bottom: 1.8%;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #333;
+}
+section .edu article p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 0.8em;
+  color: #444;
+}
+section .employment {
+  z-index: 4;
+  margin-top: -1%;
+  position: relative;
+}
+section .employment span {
+  position: absolute;
+  right: 55%;
+  bottom: 34%;
+  text-align: right;
+}
+section .employment article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+section .employment article h2 {
+  padding-bottom: 1.8%;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #333;
+}
+section .employment article p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 0.8em;
+  color: #444;
+}
+section .entertainment {
+  z-index: 4;
+  margin-top: -1%;
+  position: relative;
+}
+section .entertainment span {
+  position: absolute;
+  left: 57%;
+  bottom: 39%;
+}
+section .entertainment article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(144, 228, 255, 0.9);
+}
+section .entertainment article h2 {
+  padding-bottom: 1.8%;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #333;
+}
+section .entertainment article p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 0.8em;
+  color: #444;
+}
+section .book {
+  z-index: 4;
+  margin-top: -1%;
+  position: relative;
+}
+section .book span {
+  position: absolute;
+  right: 49.8%;
+  bottom: 39%;
+}
+section .book article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+section .book article h2 {
+  padding-bottom: 1.8%;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #333;
+}
+section .book article p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 0.8em;
+  color: #444;
+}
+section .recharge {
+  z-index: 4;
+  margin-top: -1%;
+  position: relative;
+}
+section .recharge span {
+  position: absolute;
+  right: 21.5%;
+  bottom: 39%;
+}
+.footer {
+  margin-top: -0.5%;
+  background-color: #FFF;
+}
+.footer .content a {
+  margin-top: -20px;
+}
+@media screen and (max-width: 1400px) {
+  .footer .content a {
+    margin-top: -23px;
+  }
+}

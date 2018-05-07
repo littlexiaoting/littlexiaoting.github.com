@@ -1,0 +1,378 @@
+@charset "UTF-8";
+h1 {
+  position: absolute;
+  left: -10000px;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; /*初始状态 透明度为0*/
+  }
+  100% {
+    opacity: 1; /*结尾状态 透明度为1*/
+  }
+}
+
+//导航栏样式
+.nav {
+  width: 100%;
+  height: 84px;
+  background-color: rgba(255, 255, 255, .8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 3px 10px rgba(51, 51, 51, .3);
+  .navbar {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    li {
+      height: 84px;
+      float: left;
+      width: 70px;
+      margin-right: 54px;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      letter-spacing: 1px;
+      border-top: 5px solid transparent;
+      a {
+        color: #666;
+      }
+      &.change:hover {
+        border-top: 5px solid #16bbb7;
+        a {
+          color: #16bbb7;
+        }
+      }
+      &:first-child {
+        width: 178px;
+        margin-right: 70px;
+        a {
+          width: 178px;
+          height: 56px;
+          background: url("../images/logo.png") 0 0 no-repeat;
+          -webkit-background-size: contain;
+          background-size: contain;
+        }
+      }
+      &:last-child {
+        width: 200px;
+        color: #01bd93;
+        margin-right: 0;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 0;
+        .tel {
+          width: 26px;
+          height: 26px;
+          background: url("../images/sprite.png") -304px 0 no-repeat;
+        }
+        div {
+          width: 185px;
+          padding-left: 10px;
+          span {
+            width: 100%;
+            font-size: 22px;
+            color: #16bbb7;
+            display: block;
+          }
+
+        }
+
+      }
+    }
+
+  }
+  .fixedNav {
+    position: fixed;
+    right: 49px;
+    top: 365px;
+    width: 67px;
+    height: 410px;
+    z-index: 100000;
+    li {
+      float: left;
+      width: 67px;
+      height: 67px;
+      background-color: #EEEEEE;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(67,67,67,.3);
+      &:hover {
+        background-color: #16bbb7;
+        box-shadow: 0 4px 8px rgba(26,81,80,.3);
+
+        .home {
+          background: url("../images/sprite.png") -269px -60px no-repeat;
+        }
+        .weiXin {
+          background: url("../images/sprite.png") -268px -118px no-repeat;
+          span {
+            position: absolute;
+            left: -167px;
+            top: -42px;
+            width: 119px;
+            height: 112px;
+            background: url("../images/twoCode2.png") no-repeat;
+            -webkit-animation: fadeIn 1.5s;
+            -o-animation: fadeIn 1.5s;
+            animation: fadeIn 1.5s;
+          }
+        }
+        .QQ {
+          background: url("../images/sprite.png") -270px -88px no-repeat;
+          span {
+            display: block;
+            position: absolute;
+            left: -167px;
+            top: 1px;
+            width: 117px;
+            height: 27px;
+            line-height: 27px;
+            background: url("../images/border.png") no-repeat;
+            -webkit-animation: fadeIn 1.5s;
+            -o-animation: fadeIn 1.5s;
+            animation: fadeIn 1.5s;
+            color: #666;
+            font-size: 14px;
+            text-align: center;
+            padding-right: 6px;
+          }
+        }
+
+        .tel {
+          background: url("../images/sprite.png") -270px -29px no-repeat;
+          span {
+            display: block;
+            position: absolute;
+            left: -167px;
+            top: 1px;
+            width: 117px;
+            height: 27px;
+            line-height: 27px;
+            background: url("../images/border.png") no-repeat;
+            -webkit-animation: fadeIn 1.5s;
+            -o-animation: fadeIn 1.5s;
+            animation: fadeIn 1.5s;
+            color: #666;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+        .top {
+          background: url("../images/sprite.png") -232px -60px no-repeat;
+        }
+      }
+      .home {
+        width: 30px;
+        height: 28px;
+        background: url("../images/sprite.png") -298px -60px no-repeat;
+      }
+      .weiXin {
+        position: relative;
+        width: 30px;
+        height: 27px;
+        background: url("../images/sprite.png") -298px -118px no-repeat;
+      }
+      .QQ {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: url("../images/sprite.png") -300px -88px no-repeat;
+        span {
+          display: none;
+        }
+      }
+      .service{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 178px;
+        left: 10px;
+        z-index: 100;
+      }
+      .tel {
+        position: relative;
+        width: 28px;
+        height: 28px;
+        background: url("../images/sprite.png") -300px -29px no-repeat;
+        span {
+          display: none;
+        }
+      }
+      .top {
+        width: 30px;
+        height: 19px;
+        background: url("../images/sprite.png") -232px -29px no-repeat;
+      }
+    }
+  }
+}
+
+.banner {
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+//侧边导航栏
+.li_checked {
+  padding-left: 24px;
+  color: #16bbb7;
+  border-left: 4px solid #16bbb7 !important;
+}
+.section {
+  overflow: hidden;
+  .ul_left {
+    float: left;
+    width: 270px;
+    background-color: #f8f8f8;
+    li {
+      position: relative;
+      width: 100%;
+      height: 30px;
+      padding-left: 24px;
+      border-left: 4px solid #f8f8f8;
+      font-size: 16px;
+      margin: 20px 0;
+      line-height: 30px;
+      p {
+        position: absolute;
+        top: 22px;
+        font-size: 12px;
+        width: 100%;
+        display: block;
+        color: #999;
+      }
+      &:not(:first-child) {
+        cursor: pointer;
+      }
+      &:not(:first-child):hover {
+        .li_checked;
+      }
+      &:first-child {
+        font-size: 22px;
+        background-color: #16bbb7;
+        color: #fff;
+        height: 60px;
+        line-height: 60px;
+        margin: 0;
+        border-left: 4px solid #16bbb7;
+        span {
+          color: #fff;
+          font-size: 18px;
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+
+  .ul_right {
+    float: right;
+    width: 930px;
+    padding-left: 50px;
+    li {
+      font-size: 16px;
+      color: #666;
+      line-height: 30px;
+      //margin-bottom: 90px;
+      .section {
+        width: 880px;
+      }
+    }
+  }
+}
+
+//底部
+.footer {
+  display: block;
+  height: 300px;
+  background-color: #18293B;
+  position: relative;
+  .icon-angle-up {
+    position: absolute;
+    top: -139px;
+    right: 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #c1c1c1;
+    box-shadow: 0 4px 8px rgba(67, 67, 67, .5);
+    &:hover {
+      background-color: #16bbb7;
+      box-shadow: 0 4px 8px rgba(27, 121, 119, .7);
+    }
+  }
+  .content {
+    position: relative;
+    .footer_left {
+      position: absolute;
+      top: 50px;
+      left: 121px;
+      letter-spacing: 4px;
+      h6 {
+        color: #fff;
+        padding-bottom: 15px;
+      }
+      span {
+        display: block;
+        padding-bottom: 10px;
+        color: #ccc;
+        font-size: 16px;
+        line-height: 27px;
+        &.address {
+          padding-bottom: 20px;
+        }
+      }
+      i.wechat {
+        width: 36px;
+        height: 30px;
+        background: url("../images/sprite.png") no-repeat -293px -182px;
+        margin-right: 27px;
+      }
+      i.qq {
+        width: 26px;
+        height: 28px;
+        background: url("../images/sprite.png") no-repeat -302px -154px;
+      }
+    }
+    .footer_right {
+      position: absolute;
+      top: 50px;
+      right: 208px;
+      width: 130px;
+      height: 150px;
+      text-align: center;
+      img, span {
+        display: block;
+      }
+      span {
+        padding-top: 12px;
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+    p {
+      color: #ccc;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 240px;
+      font-size: 14px;
+    }
+  }
+
+}

@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.visa p {
+  letter-spacing: 0;
+  line-height: 30px;
+}
+.visa p span {
+  display: block;
+}
+.visa table .title {
+  background-color: #d3fcff;
+  font-size: 18px;
+  font-weight: 600;
+  color: #15a9a9;
+}
+.visa table td {
+  background-color: #e8fdff;
+  text-align: center;
+  padding: 15px 0;
+}
+.visa table td.d_left {
+  text-align: left;
+  padding-left: 30px;
+}
+.visa span {
+  color: #15a9a9;
+}
+.bus {
+  position: relative;
+}
+.bus p {
+  text-indent: 2em;
+}
+.bus table {
+  width: 100%;
+}
+.bus table tr {
+  background-color: #e8fdff;
+}
+.bus table tr span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #15a9a9;
+}
+.bus table tr span.little {
+  font-weight: normal;
+}
+.bus table tr td {
+  color: #666;
+  font-size: 16px;
+  padding: 20px 17px;
+  width: 176px;
+}
+.bus table tr td i {
+  color: #999;
+}
+.bus table tr td.dCenter {
+  text-align: center;
+}
+.bus table tr td.tip {
+  padding: 16px 28px;
+  line-height: 30px;
+}
+.hotel p {
+  text-indent: 2em;
+  line-height: 30px;
+}
+.hotel p:not(.last) {
+  padding-bottom: 20px;
+}
+.hotel p:first-child {
+  color: #666;
+}
+.hotel p span {
+  text-indent: 0;
+  color: #16bbb7;
+  font-weight: 600;
+}
+.hotel p i {
+  text-indent: 0;
+  color: #999;
+}
+.hotel .title {
+  overflow: hidden;
+}
+.hotel .title p {
+  text-indent: 0;
+}
+.hotel .title p.h_title,
+.hotel .title p.h_price {
+  display: inline-block;
+}
+.hotel .title p.h_title {
+  float: left;
+}
+.hotel .title p.h_price {
+  float: right;
+}
+.hotel .img {
+  width: 100%;
+}
+.hotel .img:not(:last-child) {
+  padding-bottom: 30px;
+}
+.hotel .img img {
+  width: 214px;
+  height: 139px;
+}
+.hotel .img img:not(:last-child) {
+  margin-right: 3px;
+}
+.hotel ul {
+  width: 100%;
+  height: 205px;
+  display: flex;
+  margin-top: 10px;
+}
+.hotel ul li {
+  flex: 205px;
+  height: 150px;
+  text-align: center;
+  color: #666;
+}
+.hotel ul li:not(:last-child) {
+  margin-right: 15px;
+}
+.hotel ul li img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.publicTraffic p {
+  color: #666;
+  line-height: 30px;
+}
+.publicTraffic p .title {
+  color: #333;
+  font-weight: 600;
+}
+.publicTraffic p .s_green {
+  color: #16bbb7;
+}
+.publicTraffic p .little {
+  color: #666;
+  font-weight: 600;
+}
+.publicTraffic .img {
+  overflow: hidden;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.publicTraffic .img span {
+  color: #1fa16d;
+}
+.publicTraffic .img img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.publicTraffic .img .img_left {
+  float: left;
+  height: 277px;
+  width: 400px;
+}
+.publicTraffic .img .img_right {
+  float: right;
+  height: 277px;
+  width: 422px;
+}

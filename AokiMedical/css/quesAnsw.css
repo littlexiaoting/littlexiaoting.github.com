@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.section {
+  margin-bottom: 90px;
+}
+.section p {
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.section p span.title,
+.section p span.answer,
+.section p span.s_green {
+  color: #333;
+  font-weight: 600;
+}
+.section p span.title {
+  font-size: 18px;
+  display: block;
+}
+.section p span.s_green {
+  color: #30c2bf;
+}

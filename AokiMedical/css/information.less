@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.section{
+  ul{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    &:last-child{
+      margin-bottom: 90px;
+    }
+    li{
+      &:first-child{
+        flex: 360px;
+        padding-right: 60px;
+      }
+      &:last-child{
+        flex: 840px;
+        h2{
+          width: 100%;
+          font-size: 20px;
+          font-weight: 600;
+          padding-top: 0;
+          padding-bottom: 30px;
+          text-align: left;
+          &:hover{
+            color: #16bbb7;
+          }
+        }
+        p{
+          color: #666;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

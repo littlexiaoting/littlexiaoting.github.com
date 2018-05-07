@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.profile img {
+  display: block;
+  padding-bottom: 26px;
+}
+.profile p {
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 30px;
+}
+.profile p i {
+  text-indent: 0;
+  font-weight: 600;
+  padding-right: 2px;
+}
+.contact .contact_context {
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+.contact .contact_context .img {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 808px;
+  height: 462px;
+  box-shadow: 0 4px 10px rgba(37, 37, 37, 0.19);
+  z-index: 10;
+  background-color: #fff;
+}
+.contact .contact_context .img img {
+  position: absolute;
+  top: 30px;
+  left: 22px;
+  width: 626px;
+  height: 358px;
+}
+.contact .contact_context .border {
+  position: absolute;
+  top: 0;
+  right: 222px;
+  width: 250px;
+  height: 200px;
+  border: 11px solid #15B9BA;
+}
+.contact .contact_context .word {
+  position: absolute;
+  right: 0;
+  top: 148px;
+  width: 515px;
+  height: 510px;
+  box-shadow: 0 4px 10px rgba(37, 37, 37, 0.19);
+  z-index: 10;
+  padding-top: 118px;
+  padding-left: 30px;
+  background-color: #fff;
+}
+.contact .contact_context .word h6 {
+  font-weight: normal;
+  padding-bottom: 115px;
+  letter-spacing: normal;
+}
+.contact .contact_context .word span {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+}
+.contact .contact_context .word p {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  width: 456px;
+  height: 58px;
+  background-color: #16BCB7;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 8px;
+}

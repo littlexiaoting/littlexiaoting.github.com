@@ -1,0 +1,255 @@
+﻿@charset "UTF-8";
+
+/*导航栏*/
+.nav {
+    width: 100%;
+    height: 7vw;
+    min-height: 103px;
+    position: relative;
+}
+
+.nav .logo {
+    position: absolute;
+    left: 0;
+    top: 1.5vw;
+    width: 26%;
+    min-width: 194px;
+}
+
+.nav .navBar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+}
+
+.nav .navBar li a {
+    color: #fff;
+}
+
+.nav .navBar li:not(:last-child) {
+    margin-left: 1px;
+}
+
+.nav .navBar li {
+    float: right;
+    width: 11%;
+    height: 3.125vw;
+    min-height: 40px;
+    line-height: 18px;
+    font-size: 0.9em;
+    background-color: #889EA9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .icon-caret-down, .icon-caret-up {
+    color: #666;
+}
+
+.nav .tel {
+    position: absolute;
+    right: 8%;
+    bottom: 1.4vw;
+    color: #204c79;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1230px) {
+    .nav .tel {
+        right: 9%;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .nav .tel {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .nav .logo {
+        top: 3vw;
+    }
+}
+
+.nav .tel img {
+    width: 10.6%;
+}
+
+.nav p {
+    position: absolute;
+    right: 0;
+    bottom: 1vw;
+    font-size: 14px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.nav #language {
+    position: absolute;
+    right: 0;
+    bottom: 0.6vw;
+    font-size: 14px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+@media screen and (max-width: 1900px) {
+    .nav #language {
+        bottom: 0.4vw;
+    }
+}
+
+@media screen and (max-width: 1585px) {
+    .nav #language {
+        bottom: 0.3vw;
+    }
+}
+
+@media screen and (max-width: 1395px) {
+    .nav #language {
+        bottom: 0.5vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .nav #language {
+        bottom: 0.6vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .nav .tel {
+        bottom: 1.3vw;
+    }
+
+    .nav p {
+        bottom: 0.8vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .nav .tel {
+        bottom: 1.6vw;
+    }
+
+    .nav p {
+        bottom: 1vw;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .nav .tel {
+        bottom: 2.1vw;
+    }
+
+    .nav p {
+        bottom: 1.4vw;
+    }
+}
+
+.nav #language:hover {
+    cursor: pointer;
+}
+
+.nav #language a{
+    color: #333;
+}
+.nav #language a:hover{
+    color: #204c79;
+}
+
+.nav h1 {
+    position: absolute;
+    left: -100000px;
+}
+
+/*导航栏结束*/
+
+/*中间公共样式*/
+#section {
+    width: 100%;
+}
+
+.section {
+    display: flex;
+}
+
+.section .sidebar {
+    flex: 3.3%;
+    background: #204c79;
+    padding-top: 0.8%;
+}
+
+.section .sidebar span {
+    width: 100%;
+    text-align: center;
+}
+
+.section .right {
+    flex: 96.7%;
+}
+
+.section .right .right_nav {
+    width: 100%;
+    display: flex;
+}
+
+.section .right .right_nav li {
+    float: left;
+    flex: 1;
+    margin-left: 1px;
+    height: 2em;
+    line-height: 2em;
+    background-color: #889EA9;
+    color: #fff;
+    text-align: center;
+}
+
+.section .right .right_nav li:hover {
+    cursor: pointer;
+}
+
+.section .right img {
+    width: 100%;
+    height: auto;
+}
+
+/*中间公共样式结束*/
+
+/*底部*/
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 109px;
+    text-align: center;
+}
+
+.footer img {
+    width: 34%;
+    height: auto;
+    background: transparent;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.footer p {
+    background: #204c79;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "幼圆", "Tahoma";
+    font-size: 0.8em;
+}
+
+/*底部结束*/
+

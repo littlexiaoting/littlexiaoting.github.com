@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*  给矩形一个1px实心颜色rgb为#E4E4E2的边框  */
+        body{
+            background: red;
+        }
+        .dynamicTime {
+            width: 125px;
+            height: 40px;
+            border: 1px solid #E4E4E2;
+            margin-left: 20px;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            background: #000;
+        }
+        /*    上下透明，右边框为10px   */
+        .dynamicTime:before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: -10px;
+            width: 0;
+            height: 0;
+            border-right: 10px solid #E4E4E2;
+            border-bottom: 10px solid transparent;
+            border-top: 10px solid transparent;
+        }
+        /*  上下透明，右边框为9px且在:before伪元素三角形的基础上，向右，下移动了1px  */
+        .dynamicTime:after {
+            content: '';
+            position: absolute;
+            top: 11px;
+            left: -9px;
+            width: 0;
+            height: 0;
+            border-bottom: 9px solid transparent;
+            border-right: 9px solid #fff;
+            border-top: 9px solid transparent;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+<body>
+<div class="dynamicTime"></div>
+</body>
+</html>

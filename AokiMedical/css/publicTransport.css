@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.section p {
+  color: #666;
+  line-height: 30px;
+}
+.section p .title {
+  color: #333;
+  font-weight: 600;
+}
+.section p .s_green {
+  color: #16bbb7;
+}
+.section p .little {
+  color: #666;
+  font-weight: 600;
+}
+.section .img {
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 85px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.section .img span {
+  color: #1fa16d;
+}
+.section .img img {
+  margin-bottom: 10px;
+}
+.section .img .img_left {
+  float: left;
+  height: 377px;
+  width: 554px;
+}
+.section .img .img_right {
+  float: right;
+  height: 374px;
+  width: 580px;
+}

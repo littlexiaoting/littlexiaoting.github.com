@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.section {
+  margin-bottom: 90px;
+}
+.section p {
+  text-indent: 2em;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.section p:first-child {
+  color: #666;
+}
+.section p span {
+  text-indent: 0;
+  color: #16bbb7;
+  font-weight: 600;
+}
+.section p i {
+  text-indent: 0;
+  color: #999;
+}
+.section .title {
+  overflow: hidden;
+}
+.section .title p {
+  text-indent: 0;
+}
+.section .title p.h_title,
+.section .title p.h_price {
+  display: inline-block;
+}
+.section .title p.h_title {
+  float: left;
+}
+.section .title p.h_price {
+  float: right;
+}
+.section .img {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.section .img img {
+  width: 292px;
+  height: 200px;
+}
+.section .img img:not(:last-child) {
+  margin-right: 5px;
+}
+.section ul {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+.section ul li {
+  flex: 285px;
+  height: 247px;
+  text-align: center;
+  color: #666;
+}
+.section ul li img {
+  margin-bottom: 10px;
+}

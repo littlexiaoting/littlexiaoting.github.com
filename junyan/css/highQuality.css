@@ -1,0 +1,43 @@
+@charset "UTF-8";
+#overseas {
+  width: 94%;
+  padding: 3% 3% 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#overseas li {
+  flex: 100%;
+  padding-bottom: 2%;
+}
+#overseas li ul {
+  width: 100%;
+  display: flex;
+}
+#overseas li ul li:first-child {
+  padding-right: 3%;
+  flex: 44%;
+  padding-bottom: 0;
+}
+#overseas li ul li:last-child {
+  flex: 56%;
+}
+#overseas li ul li:last-child span {
+  display: inline-block;
+  padding-left: 2px;
+  font-size: 1em;
+  color: #214C79;
+  font-weight: 600;
+  line-height: 1em;
+  padding-bottom: -1%;
+}
+#overseas li ul li:last-child .kuai {
+  background-color: #214C79;
+  display: inline;
+}
+#overseas li ul li:last-child p {
+  padding-top: 8%;
+  line-height: 2em;
+}
+#overseas li:last-child {
+  padding-bottom: 0;
+}

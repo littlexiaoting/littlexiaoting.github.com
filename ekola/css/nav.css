@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.nav > ul {
+  width: 100%;
+  display: flex;
+  padding: 2.5% 0;
+}
+.nav > ul .nav_logo {
+  flex: 19.4%;
+}
+.nav > ul .nav_logo h1 {
+  position: absolute;
+  margin-left: -100000px;
+}
+.nav > ul .navbar {
+  flex: 80.6%;
+}
+.nav > ul .navbar a:hover {
+  color: #329438;
+  border-bottom: 2px solid #329438;
+}
+.nav > ul .navbar ul {
+  width: 100%;
+}
+.nav > ul .navbar ul li {
+  float: right;
+  padding: 1.6% 0 2.5% 7%;
+}

@@ -1,0 +1,431 @@
+@charset "UTF-8";
+@keyframes myfirst {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -615px;
+  }
+}
+
+@-webkit-keyframes myfirst /* Safari 与 Chrome */ {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -615px;
+  }
+}
+
+//主营业务
+.business {
+  .business_ul {
+    width: 100%;
+    height: 458px;
+    display: flex;
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 392px;
+      &:not(:last-child) {
+        margin-right: 12px;
+      }
+      background-color: #F3F3F3;
+      &:hover {
+        background: -webkit-linear-gradient(left bottom, #05ffbb, #0ad5d0); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(left bottom, #05ffbb, #0ad5d0); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(left bottom, #05ffbb, #0ad5d0); /* Firefox 3.6 - 15 */
+        background: linear-gradient(to left bottom, #05ffbb, #0ad5d0); /* 标准的语法 */
+        a {
+          box-shadow: 0 6px 15px #056361;
+        }
+        span, i {
+          color: #fff;
+        }
+      }
+
+      a {
+        display: block;
+        width: 182px;
+        height: 182px;
+        margin: 52px auto 50px;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 6px 15px #999;
+        img {
+          display: inline-block;
+          margin-top: 34px;
+        }
+        #plane{
+          margin-left: 5px;
+        }
+
+        #insurance {
+          margin-top: 48px;
+        }
+      }
+
+      span {
+        font-size: 30px;
+        color: #666;
+        font-weight: 600;
+        padding-bottom: 28px;
+      }
+      i {
+        font-size: 16px;
+        color: #999;
+        padding: 0 26px;
+      }
+    }
+
+  }
+
+}
+
+//国外医疗优势
+.advantage {
+  .advantage_context {
+    width: 100%;
+    height: 940px;
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      top: 116px;
+      width: 891px;
+      height: 566px;
+      z-index: 10;
+
+    }
+    .shadow {
+      position: absolute;
+      left: 30px;
+      top: 537px;
+      width: 300px;
+      height: 140px;
+      -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      -webkit-transform: skew(-15deg) rotate(-2deg);
+      -moz-transform: skew(-15deg) rotate(-2deg);
+      -ms-transform: skew(-15deg) rotate(-2deg);
+      -o-transform: skew(-15deg) rotate(-2deg);
+      transform: skew(-15deg) rotate(-2deg);
+    }
+    p {
+      position: absolute;
+      left: 10px;
+      top: 706px;
+      bottom: 33px;
+      line-height: 26px;
+    }
+    .advantage_ul {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 532px;
+      height: 850px;
+      border: 14px solid #16BCB7;
+      ul {
+        position: absolute;
+        left: 230px;
+        top: 86px;
+        width: 285px;
+        height: 608px;
+        border-left: 1px solid #999999;
+        counter-reset: count;
+        padding-left: 18px;
+        font-weight: 600;
+
+        span {
+          font-size: 24px;
+          padding-bottom: 43px;
+        }
+        li {
+          padding-bottom: 51px;
+          font-size: 16px;
+          &::before {
+            position: absolute;
+            left: -5.5px;
+            content: "●";
+            color: #0DBDBD;
+            height: 40px;
+            width: 10px;
+            line-height: 40px;
+            vertical-align: middle;
+          }
+          &:last-child::before {
+            height: 20px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//服务流程
+.process {
+  height: 550px;
+  background-color: #02D8A4;
+  margin-top: 90px;
+  .content {
+    background: url("../images/index/process.jpg") no-repeat;
+    height: 550px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    h2 {
+      color: #fff;
+    }
+    small {
+      color: #e2e2e2;
+    }
+    ul {
+      width: 100%;
+      height: 260px;
+      text-align: center;
+      li {
+        width: 200px;
+        float: left;
+        position: relative;
+        .consult {
+          width: 74px;
+          height: 71px;
+          background: url("../images/sprite.png") -70px -182px no-repeat;
+          margin-bottom: 5px;
+        }
+        .translate {
+          width: 63px;
+          height: 75px;
+          background: url("../images/sprite.png") 0 -20px no-repeat;
+
+        }
+        .hospital {
+          width: 70px;
+          height: 83px;
+          background: url("../images/sprite.png") -70px -98px no-repeat;
+          margin-bottom: -6px;
+        }
+        .visa {
+          width: 70px;
+          height: 78px;
+          background: url("../images/sprite.png") 0 -98px no-repeat;
+        }
+        .trip {
+          width: 78px;
+          height: 78px;
+          background: url("../images/sprite.png") -70px -20px no-repeat;
+        }
+        .treat {
+          width: 74px;
+          height: 73px;
+          background: url("../images/sprite.png") -70px -258px no-repeat;
+          margin-bottom: 6px;
+        }
+        span {
+          padding-top: 33px;
+          color: #ffff00;
+          font-size: 24px;
+          font-weight: 600;
+          display: block;
+          padding-bottom: 66px;
+        }
+        p {
+          position: absolute;
+          left: 50px;
+          width: 115px;
+          height: 55px;
+          color: #fff;
+          line-height: 20px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+//体检套餐
+.package {
+  background-color: #02D8A4;
+  position: relative;
+  #pre, #last {
+    bottom: 202px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  #pre {
+    //left: 232px;
+    border-right: 27px solid #eeeeee;
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid transparent;
+    filter: drop-shadow(3px 0 6px rgba(102, 102, 102, .5));
+    &:hover {
+      border-right: 27px solid #FFF68F;
+      filter: drop-shadow(3px 0 6px rgba(77, 72, 20, .5));
+    }
+  }
+  #last {
+    //right: 232px;
+    border-left: 27px solid #eeeeee;
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid transparent;
+    filter: drop-shadow(-3px 0 6px rgba(102, 102, 102, .5));
+    &:hover {
+      border-left: 27px solid #FFF68F;
+      border-top: 27px solid transparent;
+      border-bottom: 27px solid transparent;
+      filter: drop-shadow(-3px 0 6px rgba(77, 72, 20, .5));
+    }
+  }
+  .content {
+    height: 590px;
+    background: url("../images/index/package.jpg") no-repeat;
+    //overflow: hidden;
+    h2 {
+      color: #fff;
+    }
+    small {
+      color: #e2e2e2;
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      li {
+        flex: 276px;
+        border: 1px solid #00d18f;
+        border-radius: 5px;
+        padding: 38px 28px 26px;
+        background-color: #f1fffa;
+        &:hover {
+          box-shadow: 0 1px 12px rgba(26, 105, 80, .5);
+        }
+        &:not(:nth-child(4)) {
+          margin-right: 32px;
+        }
+        a {
+          font-size: 28px;
+          display: block;
+          padding-bottom: 28px;
+          text-align: center;
+          &:hover {
+            color: #ff9d9d;
+          }
+        }
+        span {
+          width: 100%;
+          display: block;
+          font-size: 18px;
+          line-height: 30px;
+          color: #00d6a1;
+        }
+        span.title {
+          font-size: 22px;
+          color: #16bbb7;
+          padding-bottom: 28px;
+          text-align: center;
+        }
+        p {
+          height: 65px;
+          font-size: 14px;
+          line-height: 18px;
+          color: #666;
+        }
+        span.price {
+          font-size: 14px;
+          color: #ff9d9d;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+}
+
+//新闻资讯
+.information {
+  height: 420px;
+  ul {
+    width: 100%;
+    display: flex;
+    li {
+      flex: 1;
+      position: relative;
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      span {
+        position: absolute;
+        top: -3px;
+        left: 208px;
+        font-size: 18px;
+        //&.first{
+        //  left: 200px;
+        //}
+        &:hover{
+          color: #16bbb7;
+        }
+      }
+      p {
+        position: absolute;
+        top: 35px;
+        left: 208px;
+        width: 370px;
+        //&.fat{
+        //  top: 43px;
+        //}
+      }
+    }
+  }
+}
+
+//合作医院
+.cooperation {
+  height: 480px;
+  background-color: #F8F8F8;
+  .content {
+    overflow: hidden;
+    #slide {
+      position: relative;
+      width: 1812px;
+      height: 200px;
+      overflow: hidden;
+      animation: myfirst 12s linear infinite alternate;
+      -webkit-animation: myfirst 12s linear infinite alternate;
+      li {
+        position: relative;
+        width: 277px;
+        height: 200px;
+        float: left;
+        &:not(:last-child) {
+          margin-right: 30px;
+        }
+        img {
+          width: 100%;
+          z-index: -10;
+        }
+        a {
+          span {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, .5);
+            font-size: 14px;
+            color: #fff;
+            &:hover {
+              color: #16bbb7;
+            }
+          }
+        }
+      }
+    }
+  }
+}

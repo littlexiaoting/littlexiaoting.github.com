@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.top {
+  background: #F8F8F8;
+  margin-top: -1%;
+  padding-top: 1%;
+}
+.top .summary {
+  width: 100%;
+  display: flex;
+}
+.top .summary li {
+  flex: 1;
+}
+.top .summary li:last-child {
+  padding: 3.2% 3.3% 0;
+  background: #fff;
+}
+.grow .title {
+  padding-bottom: 1.5%;
+}
+.grow p {
+  text-align: center;
+  padding-bottom: 4%;
+}
+.cooperation {
+  background: #F8F8F8;
+}
+.cooperation ul:last-child {
+  width: 100%;
+}
+.team {
+  padding-bottom: 1%;
+}
+.team .title {
+  padding-bottom: 1.5%;
+}
+.team > p {
+  text-align: center;
+}
+.team .active {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3.8%;
+}
+.team .active li {
+  flex: 50%;
+}
+.team .active li:nth-child(odd) {
+  padding-right: 3%;
+}
+.team .active li:nth-child(even) {
+  padding-left: 3%;
+}
+.team .active li p {
+  text-align: center;
+  padding: 1.8% 0 2%;
+}
+.team .active li:last-child p {
+  padding-bottom: 0;
+}
+.team .active li:nth-child(3) p {
+  padding-bottom: 0;
+}
+.role {
+  background: #F8F8F8;
+}
+.role ul:last-child {
+  width: 100%;
+  display: flex;
+}
+.role ul:last-child li:first-child {
+  flex: 74%;
+  background-color: #fff;
+  padding: 3.2% 3.4% 0;
+}
+.role ul:last-child li:first-child h3 {
+  padding-bottom: 0;
+}
+.role ul:last-child li:first-child p {
+  padding: 4% 0;
+}
+.role ul:last-child li:first-child p:last-child {
+  padding-bottom: 0;
+}
+.role ul:last-child li:last-child {
+  flex: 26%;
+}
+.agency .agency-img {
+  width: 100%;
+  display: flex;
+  padding-bottom: 4%;
+}
+.agency .agency-img:last-child {
+  padding-bottom: 0;
+}
+.agency .agency-img li {
+  flex: 33.3%;
+  text-align: center;
+}
+.agency .agency-img li:first-child {
+  text-align: left;
+}
+.agency .agency-img li:last-child {
+  text-align: right;
+}
+.agency .agency-img li img {
+  width: 60%;
+}

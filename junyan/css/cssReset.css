@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+html {
+    color: #333;
+    background: #fff;
+    font-family: "Microsoft YaHei", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    /*设置所有盒模型都以边框开始计算宽度，百分比布局，防止溢出*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    /*阻止旋转屏幕时自动调整字体大小*/
+    -webkit-text-size-adjust: none;
+
+    /*解决字体在移动端比例缩小后出现锯齿的问题*/
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 1500px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+body {
+    width: 1280px;
+    /*width: 62.5%;*/
+    margin: 0 auto;
+    /*max-width: 1200px;*/
+    /*min-width: 980px;*/
+    /*font-size: 20px;*/
+}
+@media screen and (max-width: 1299px) {
+    body {
+        width: 100%;
+        min-width: 960px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, span {
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+    color: #333;
+}
+
+img {
+    border: 0 none;
+    display: inline-block;
+    background: transparent;
+}
+
+ol, ul {
+    list-style: none;
+    display: inline;
+}
+
+h1, h2, h3, h5, h6 {
+    font-size: 1em;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: #204C79;
+    padding-bottom: 2%;
+    letter-spacing: 1.5px;
+}
+
+i {
+    font-style: normal;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+video{
+    border: none;
+}

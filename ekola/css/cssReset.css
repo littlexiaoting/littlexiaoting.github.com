@@ -1,0 +1,115 @@
+@charset "utf-8";
+html {
+    color: #333;
+    background: #FFF;
+    font-family: "Microsoft YaHei", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+
+    /*清除移动端默认的点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+
+    /*设置所有盒模型都以边框开始计算宽度，百分比布局，防止溢出*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    /*阻止旋转屏幕时自动调整字体大小*/
+    -webkit-text-size-adjust: none;
+
+    /*解决字体在移动端比例缩小后出现锯齿的问题*/
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    width: 100%;
+    min-width: 780px;
+}
+
+@media screen and (min-width: 1199px){
+body{font-size: 20px;}
+}
+@media screen and (max-width:1199px) {
+body{font-size: 18px;}
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1199px) {
+    .content {
+        width: 100%;
+    }
+}
+
+p {
+    font-size: 0.8em;
+    color: #555;
+    line-height: 1.9em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+}
+
+h1, h2 {
+    font-size: 0.9em;
+}
+h2{
+    padding-bottom: 0.5%;
+}
+h3, h4 {
+    font-size: 0.8em;
+}
+
+h3 {
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+h4 {
+    padding-bottom: 6%;
+}
+
+a, span {
+    text-decoration: none;
+    color: #333;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    display:block;
+    border: 0 none;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/*input {*/
+/*border: none;*/
+/*background-color: transparent;*/
+/*}*/
+h6 {
+    color: #333333;
+}
+
+i {
+    display: inline-block;
+    font-style: normal;
+}
+
+section {
+    padding-top: 2.8%;
+    padding-bottom: 2.8%;
+}

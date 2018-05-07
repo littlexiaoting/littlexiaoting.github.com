@@ -1,0 +1,285 @@
+@charset "UTF-8";
+.pad {
+  padding: 2% 2%;
+}
+.pad1 {
+  padding: 3% 3% 0;
+}
+i {
+  color: red;
+}
+#characteristic {
+  width: 94%;
+  padding: 1% 3% 0;
+}
+#characteristic h2 {
+  padding-bottom: 1%;
+}
+#characteristic ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#characteristic ul li {
+  flex: 100%;
+}
+#characteristic ul li p {
+  padding: 2% 0;
+}
+#characteristic ul li:last-child ul {
+  display: flex;
+  width: 100%;
+  background: #DDEEFE;
+  border: 2px solid #0881B7;
+}
+#characteristic ul li:last-child ul li {
+  flex: 25%;
+}
+#characteristic ul li:last-child ul li img {
+  width: 90%;
+  float: left;
+}
+#characteristic ul li:last-child ul li:last-child {
+  flex: 74.5%;
+  border-left: 2px solid #0881B7;
+}
+#characteristic ul li:last-child ul li:last-child h2 {
+  background: #214C79;
+  color: #FFF;
+  height: 3em;
+  line-height: 3em;
+  padding: 0;
+  box-shadow: 0 0 10px #214C79;
+  font-size: 1em;
+}
+#characteristic ul li:last-child ul li:last-child p {
+  font-size: 0.8em;
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 7.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+@media screen and (max-width: 1500px) {
+  #characteristic ul li:last-child ul li:last-child p {
+    padding-top: 9%;
+  }
+}
+@media screen and (max-width: 1268px) {
+  #characteristic ul li:last-child ul li:last-child p {
+    padding-top: 8%;
+  }
+}
+@media screen and (max-width: 1144px) {
+  #characteristic ul li:last-child ul li:last-child p {
+    padding-top: 5%;
+  }
+}
+@media screen and (max-width: 1061px) {
+  #characteristic ul li:last-child ul li:last-child p {
+    padding-top: 3%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #characteristic ul li:last-child ul li:last-child p {
+    padding-top: 3.5%;
+  }
+}
+#characteristic h5 {
+  padding-top: 2%;
+}
+#characteristic iframe {
+  width: 100%;
+  min-height: 570px;
+}
+#image {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#image p {
+  padding-top: 1%;
+}
+#image ul {
+  width: 100%;
+  display: flex;
+  padding-top: 1.5%;
+}
+#image ul li {
+  flex: 1;
+}
+#image ul li span {
+  width: 100%;
+  text-align: center;
+}
+#image ul li:nth-child(2) {
+  padding: 0 2%;
+}
+#image h2 {
+  padding-top: 2%;
+}
+#image ul:last-child {
+  width: 100%;
+  display: flex;
+  padding-top: 0;
+}
+#image ul:last-child li {
+  flex: 1;
+}
+#image ul:last-child li iframe {
+  width: 100%;
+  height: 250px;
+}
+#image ul:last-child li iframe span {
+  width: 100%;
+  text-align: center;
+}
+#breast {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#breast ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#breast ul li:first-child {
+  flex: 100%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+#breast ul li:first-child img {
+  width: 63%;
+}
+#breast ul li:first-child p {
+  padding-top: 1%;
+  text-align: left;
+}
+#breast ul li:last-child {
+  flex: 100%;
+}
+#breast ul li:last-child ul {
+  width: 100%;
+  display: flex;
+}
+#breast ul li:last-child ul li {
+  flex: 1;
+}
+#breast ul li:last-child ul li img {
+  width: 100%;
+}
+#breast ul li:last-child ul li:first-child {
+  padding-right: 3%;
+  padding-bottom: 0;
+}
+#breast ul li:last-child ul li:last-child {
+  padding-right: 0;
+  padding-left: 3%;
+}
+#breast ul:last-child {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#breast ul:last-child span {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 2%;
+}
+#breast ul:last-child li {
+  flex: 47%;
+  padding-right: 3%;
+}
+#breast ul:last-child li:nth-child(2n) {
+  padding-right: 0;
+  padding-left: 3%;
+}
+#breast ul:last-child li iframe {
+  width: 100%;
+  min-height: 330px;
+}
+#radiotherapy {
+  padding: 2% 2%;
+  text-align: center;
+}
+#radiotherapy header h2 {
+  color: #333;
+  font-size: 0.9em;
+  padding-bottom: 2%;
+}
+#radiotherapy img {
+  width: 58%;
+  padding: 2% 0;
+}
+#radiotherapy p {
+  color: #555;
+  text-indent: 2em;
+  font-size: 0.8em;
+  text-align: left;
+}
+#radiotherapy span {
+  color: #555;
+  font-size: 0.8em;
+  text-align: left;
+  display: block;
+}
+#cooperation {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#cooperation ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 1132px) {
+  #cooperation ul {
+    font-size: 0.85em;
+  }
+}
+#cooperation ul li {
+  line-height: 2em;
+}
+#cooperation ul .first {
+  flex: 40%;
+}
+#cooperation ul .second {
+  flex: 45%;
+}
+#cooperation ul .third {
+  flex: 15%;
+}
+#qualifications {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#qualifications ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#qualifications ul li {
+  flex: 30%;
+  margin-right: 6%;
+  margin-left: 10%;
+}
+#qualifications ul li img {
+  float: right;
+}
+#qualifications ul li span {
+  width: 100%;
+  color: #333;
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+#qualifications ul li:nth-child(2n) {
+  margin-left: 6%;
+  margin-right: 10%;
+}
+#qualifications ul li:nth-child(2n) img {
+  float: left;
+}

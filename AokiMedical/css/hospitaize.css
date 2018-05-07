@@ -1,0 +1,185 @@
+@charset "UTF-8";
+.diagnosis {
+  padding-bottom: 70px;
+}
+.diagnosis span {
+  width: 222px;
+  height: 222px;
+  border-radius: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.diagnosis span:not(.first) {
+  margin-left: -27px;
+}
+.diagnosis span.first {
+  background-color: rgba(0, 130, 210, 0.7);
+}
+.diagnosis span.two {
+  background-color: rgba(0, 170, 225, 0.7);
+}
+.diagnosis span.three {
+  background-color: rgba(92, 178, 228, 0.7);
+}
+.diagnosis span.four {
+  background-color: rgba(0, 203, 212, 0.7);
+}
+.diagnosis span.five {
+  background-color: rgba(0, 210, 170, 0.7);
+}
+.diagnosis span.last {
+  background-color: rgba(71, 220, 137, 0.7);
+}
+.benefits {
+  width: 100%;
+  height: 870px;
+  background: url("../images/business/benefit.jpg") no-repeat;
+}
+.benefits .content h2 {
+  color: #fff;
+}
+.benefits .content small {
+  color: #e2e2e2;
+}
+.benefits .content div {
+  width: 355px;
+  height: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+.benefits .content div.middle {
+  margin: 0 60px;
+}
+.benefits .content div span {
+  display: block;
+  margin: 0 auto;
+}
+.benefits .content div span.first {
+  width: 80px;
+  height: 62px;
+  background: url("../images/sprite.png") -155px -224px no-repeat;
+}
+.benefits .content div span.two {
+  width: 59px;
+  height: 60px;
+  background: url("../images/sprite.png") -155px -88px no-repeat;
+}
+.benefits .content div span.three {
+  width: 64px;
+  height: 64px;
+  background: url("../images/sprite.png") -155px -156px no-repeat;
+}
+.benefits .content div span.five {
+  width: 58px;
+  height: 58px;
+  background: url("../images/sprite.png") 0 -258px no-repeat;
+}
+.benefits .content div span.six {
+  width: 62px;
+  height: 61px;
+  background: url("../images/sprite.png") 0 -179px no-repeat;
+}
+.benefits .content div span.four {
+  width: 58px;
+  height: 60px;
+  background: url("../images/sprite.png") -155px -28px no-repeat;
+}
+.benefits .content div h3 {
+  text-align: left;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+.benefits .content div h3.three {
+  padding-top: 15px;
+}
+.benefits .content div p {
+  font-size: 16px;
+  color: #DAF6EF;
+}
+.benefits .content div p span {
+  font-size: 18px;
+  color: #DAFE51;
+  display: block;
+}
+.process {
+  position: relative;
+  height: 780px;
+}
+.process img {
+  position: absolute;
+  top: 244px;
+  left: 0;
+  height: 400px;
+  width: 761px;
+}
+.process .bg1 {
+  position: absolute;
+  top: 202px;
+  left: 571px;
+  width: 535px;
+  height: 518px;
+  z-index: 10;
+  background-color: #0ec9c4;
+  opacity: .3;
+}
+.process .bg2 {
+  position: absolute;
+  top: 244px;
+  right: 0;
+  width: 516px;
+  height: 440px;
+  z-index: 20;
+  background-color: #0ec9c4;
+  padding-top: 80px;
+  padding-left: 70px;
+}
+.process .bg2 p {
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+}
+.introduce {
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.introduce .content p {
+  text-indent: 2em;
+  line-height: 30px;
+  color: #666;
+}
+.introduce .content div {
+  margin-top: 25px;
+  width: 520px;
+  height: 690px;
+  display: inline-block;
+}
+.introduce .content div img {
+  width: 517px;
+}
+.introduce .content div:first-child {
+  float: left;
+}
+.introduce .content div:last-child {
+  float: right;
+}
+.introduce .content div > span {
+  display: block;
+  text-align: center;
+  color: #666;
+  padding: 15px 0 25px;
+}
+.introduce .content div p {
+  text-indent: 0;
+  color: #666;
+  padding-bottom: 35px;
+}
+.introduce .content div p span {
+  display: block;
+  color: #16bbb7;
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+#add {
+  width: 100%;
+}
+#add h2 {
+  padding-bottom: 3%;
+}
+#add p {
+  text-align: center;
+  padding-bottom: 2%;
+}
+#add p:last-child {
+  padding-bottom: 0;
+}
+#add table {
+  width: 100%;
+  border-right: 1px solid #bbe3ff;
+  border-bottom: 1px solid #bbe3ff;
+  border-collapse: collapse;
+  /* IE7 and lower */
+  border-spacing: 0;
+}
+#add table thead {
+  width: 100%;
+  background-color: #DBF1FF;
+  text-align: center;
+}
+#add table thead tr {
+  width: 100%;
+}
+#add table thead tr td {
+  margin: 0;
+  border-left: 1px solid #bbe3ff;
+  border-top: 1px solid #bbe3ff;
+  padding: 1%;
+  font-size: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+#add table tbody {
+  background-color: #f5faff;
+}
+#add table tbody tr {
+  width: 100%;
+}
+#add table tbody tr td {
+  margin: 0;
+  border-left: 1px solid #bbe3ff;
+  border-top: 1px solid #bbe3ff;
+  padding: 1% 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+#add table tbody tr td.add_title {
+  font-size: 1em;
+}
+#add table tbody tr td.add_name {
+  width: 29%;
+  padding-left: 3%;
+  text-align: left;
+  color: #666;
+}
+#add table tbody tr td.add_price {
+  width: 17%;
+  color: #ff8282;
+}
+#add table tbody tr td.tip {
+  width: 33%;
+  color: #999;
+}
+span.back {
+  float: right;
+  padding-top: 1%;
+}
+span.back:hover {
+  cursor: pointer;
+  color: #204c79;
+}

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.pad {
+  padding: 3% 3% 0;
+}
+#immune {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#immune h2 {
+  text-align: left;
+  padding-bottom: 1%;
+}
+#immune p:not(:last-child) {
+  padding-top: 0;
+  padding-bottom: 4%;
+}
+#immune ul {
+  width: 100%;
+  display: flex;
+  padding-bottom: 3%;
+}
+#immune ul li {
+  flex: 1;
+}
+#immune ul li img {
+  width: 85%;
+}
+#immune ul li span {
+  color: #204C79;
+  width: 85%;
+  text-align: center;
+  padding-bottom: 4%;
+  font-weight: 600;
+}
+#immune .immune_last {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0;
+}
+#immune .immune_last li {
+  flex: 1;
+  text-align: center;
+}
+#immune .immune_last li span {
+  display: inline-block;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(to bottom, #608BE9, #244C7D);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(to bottom, #608BE9, #244C7D);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(to bottom, #608BE9, #244C7D);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom, #608BE9, #244C7D);
+  /* 标准的语法 */
+  padding-bottom: 1%;
+  padding-top: 0.5%;
+  height: 1.5em;
+  line-height: 1.5em;
+  font-weight: normal;
+  color: #FFF;
+  font-size: 0.9em;
+}
+#immune .immune_last li span.immune_last_first {
+  width: 25%;
+}
+#immune .immune_last li span.immune_last_last {
+  width: 80%;
+}
+#drip {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#drip h2 {
+  text-align: left;
+  padding-bottom: 1%;
+}
+#drip p {
+  padding-top: 0;
+  padding-bottom: 4%;
+}
+#drip p:last-child {
+  padding-bottom: 0;
+}

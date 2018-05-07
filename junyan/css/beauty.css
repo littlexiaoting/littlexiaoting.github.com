@@ -1,0 +1,161 @@
+@charset "UTF-8";
+.pad {
+  padding: 3% 3% 0;
+}
+#idea {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#idea p {
+  padding-top: 0;
+  padding-bottom: 3%;
+}
+#idea ul {
+  width: 100%;
+  display: flex;
+}
+#idea ul li:first-child {
+  flex: 60%;
+}
+#idea ul li:last-child {
+  margin-top: -0.5%;
+  padding-left: 2%;
+  flex: 40%;
+}
+#idea ul li:last-child p {
+  line-height: 1.8em;
+}
+@media screen and (max-width: 1499px) {
+  #idea ul li:last-child p {
+    line-height: 2em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #idea ul li:last-child p {
+    line-height: 1.7em;
+  }
+}
+@media screen and (max-width: 1036px) {
+  #idea ul li:last-child p {
+    line-height: 1.5em;
+  }
+}
+#content {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#content p {
+  padding-top: 0;
+  padding-bottom: 3%;
+}
+#content ul {
+  width: 100%;
+  display: flex;
+}
+#content ul li:first-child {
+  flex: 30%;
+}
+#content ul li:last-child {
+  padding-left: 2%;
+  flex: 70%;
+  font-size: 0.9em;
+  line-height: 1.8em;
+}
+@media screen and (max-width: 1499px) {
+  #content ul li:last-child {
+    line-height: 2em;
+  }
+}
+@media screen and (max-width: 1220px) {
+  #content ul li:last-child {
+    line-height: 1.8em;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #content ul li:last-child {
+    line-height: 1.6em;
+  }
+}
+#environment {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#product {
+  width: 94%;
+  padding: 3% 3% 0;
+}
+#product ul {
+  width: 100%;
+  display: flex;
+}
+#product ul li:first-child {
+  flex: 30%;
+}
+#product ul li:first-child ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#product ul li:first-child ul li {
+  flex: 100%;
+  margin-bottom: 17%;
+  text-align: center;
+}
+@media screen and (max-width: 1500px) {
+  #product ul li:first-child ul li {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1286px) {
+  #product ul li:first-child ul li {
+    margin-bottom: 8%;
+  }
+}
+@media screen and (max-width: 1237px) {
+  #product ul li:first-child ul li {
+    margin-bottom: 14%;
+  }
+}
+@media screen and (max-width: 1163px) {
+  #product ul li:first-child ul li {
+    margin-bottom: 18%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #product ul li:first-child ul li {
+    margin-bottom: 30%;
+  }
+}
+@media screen and (max-width: 1055px) {
+  #product ul li:first-child ul li {
+    margin-bottom: 40%;
+  }
+}
+@media screen and (max-width: 980px) {
+  #product ul li:first-child ul li {
+    margin-bottom: 45%;
+  }
+}
+#product ul li:first-child ul li img {
+  width: 55%;
+}
+#product ul li:first-child ul li #product3 {
+  width: 100%;
+}
+#product ul li:first-child ul li:last-child {
+  margin-bottom: 0;
+}
+#product ul li:last-child {
+  flex: 70%;
+  padding-left: 2%;
+}
+#product ul li:last-child h2 {
+  text-align: left;
+  padding-bottom: 4%;
+}
+#product ul li:last-child p:not(:last-child) {
+  padding-bottom: 4%;
+}
+#product ul small {
+  color: #666666;
+}

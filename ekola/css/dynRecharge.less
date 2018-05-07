@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.content {
+  h2 {
+    padding-bottom: 4%;
+  }
+  .summary {
+    width: 100%;
+    display: flex;
+
+    li:first-child {
+      flex: 55%;
+      h3 {
+        padding-bottom: 0.5%;
+      }
+      p {
+        line-height: 2em;
+        padding-bottom: 1%;
+      }
+      @media screen and (max-width: 1080px) {
+        p {
+          line-height: 1.7em;
+        }
+      }
+    }
+    li:last-child {
+      flex: 45%;
+      padding-left: 3%;
+      text-align: center;
+      padding-top: 5%;
+      img {
+        width: 65%;
+        display: inline-block;
+      }
+      a {
+        display: inline-block;
+        width: 75%;
+        height: 2em;
+        background: #4DB53A;
+        border-radius: 5px;
+        margin-top: 6%;
+        font-size: 1em;
+        line-height: 2em;
+      }
+    }
+  }
+}

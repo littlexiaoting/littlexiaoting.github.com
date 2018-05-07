@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.section .ul_right li .section {
+  width: 880px;
+  text-align: center;
+}
+.section .ul_right li .section img {
+  padding-bottom: 15px;
+}
+.section .ul_right li .section img.hundred {
+  width: 100%;
+}
+.section .ul_right li .section p {
+  width: 100%;
+  text-indent: 2em;
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+  text-align: left;
+}
+.section .ul_right li .section p span {
+  text-indent: 0;
+  font-weight: 600;
+}
+.section .ul_right li .section p i {
+  text-indent: 0;
+  color: #999;
+}
+.section .ul_right li .section p.p_left {
+  text-indent: 0;
+  text-align: left;
+}
+.section .ul_right li .section p .dcolor {
+  color: #16bbb7;
+  font-weight: 400;
+}

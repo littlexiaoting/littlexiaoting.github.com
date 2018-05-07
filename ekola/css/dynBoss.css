@@ -1,0 +1,12 @@
+@charset "UTF-8";
+section h2 {
+  padding-bottom: 3%;
+}
+section h3,
+section p {
+  text-indent: 2em;
+}
+section img {
+  width: 68%;
+  margin: 2% 16%;
+}

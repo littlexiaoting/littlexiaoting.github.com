@@ -1,0 +1,203 @@
+@charset "UTF-8";
+.package {
+  margin-bottom: 70px;
+}
+.package ul {
+  width: 100%;
+  overflow: hidden;
+}
+.package ul li {
+  width: 272px;
+  border: 1px solid #00d18f;
+  margin-bottom: 33px;
+  border-radius: 5px;
+  padding: 38px 28px 26px;
+  background-color: #f1fffa;
+  float: left;
+}
+.package ul li:hover {
+  box-shadow: 0 1px 12px rgba(26, 105, 80, 0.5);
+}
+.package ul li.middle {
+  margin: 0 32px;
+}
+.package ul li a {
+  font-size: 30px;
+  display: block;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.package ul li a:hover {
+  color: #ff9d9d;
+}
+.package ul li span {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  color: #00d6a1;
+}
+.package ul li span.title {
+  font-size: 24px;
+  color: #16bbb7;
+  padding-bottom: 36px;
+  text-align: center;
+}
+.package ul li p {
+  height: 65px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666;
+}
+.package ul li span.price {
+  font-size: 14px;
+  color: #ff9d9d;
+  text-align: center;
+  padding-top: 24px;
+}
+.process {
+  position: relative;
+  height: 801px;
+}
+.process img {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  width: 475px;
+  height: 378px;
+}
+.process .bg1 {
+  position: absolute;
+  top: 200px;
+  left: 256px;
+  width: 253px;
+  height: 460px;
+  border: 15px solid #16bbb7;
+  z-index: -100;
+  box-shadow: inset 3px 0 5px rgba(16, 55, 54, 0.35), 3px 0 5px rgba(16, 55, 54, 0.35);
+}
+.process p {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 460px;
+  height: 504px;
+  background-color: #F8F8F8;
+  padding-top: 34px;
+  padding-left: 102px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #666;
+  z-index: -200;
+  text-align: left;
+}
+.attention {
+  position: relative;
+  height: 1450px;
+}
+.attention .section {
+  position: absolute;
+  left: 0;
+  top: 200px;
+  width: 100%;
+  height: 1300px;
+  padding-top: 38px;
+  padding-left: 38px;
+  background-color: #f8f8f8;
+}
+.attention .section img {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+}
+.attention .section p {
+  position: relative;
+  z-index: 10;
+  line-height: 24px;
+}
+.attention .section p:not(:last-child) {
+  padding-bottom: 50px;
+}
+.attention .section p span {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+.attention .section p span.title {
+  margin-bottom: 30px;
+}
+.crowd {
+  position: relative;
+  height: 814px;
+}
+.crowd img {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  width: 416px;
+  height: 400px;
+}
+.crowd .bg1 {
+  position: absolute;
+  top: 200px;
+  left: 387px;
+  width: 115px;
+  height: 522px;
+  background: -webkit-linear-gradient(left, #16bbb7, #38d5d1);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(left, #16bbb7, #38d5d1);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(left, #16bbb7, #38d5d1);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(left, #16bbb7, #38d5d1);
+  /* 标准的语法 */
+  z-index: -100;
+}
+.crowd .bg1 p {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 85px;
+  height: 493px;
+  background: #fff;
+}
+.crowd .bg2 {
+  position: absolute;
+  top: 260px;
+  right: 0;
+  width: 416px;
+  height: 400px;
+  background-color: #16bbb7;
+  padding-top: 38px;
+  padding-left: 48px;
+}
+.crowd .bg2 p {
+  font-size: 14px;
+  line-height: 36px;
+  color: #fff;
+  text-align: left;
+}
+.question {
+  margin-bottom: 40px;
+}
+.question p {
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.question p span.title,
+.question p span.answer,
+.question p span.s_green {
+  color: #333;
+  font-weight: 600;
+}
+.question p span.title {
+  font-size: 18px;
+  display: block;
+}
+.question p span.s_green {
+  color: #30c2bf;
+}
+.footer {
+  margin-top: -90px;
+}
